@@ -46,21 +46,25 @@ Pandas was used to import the data and to manipulate the data set (delete rows, 
 Matplotlib was used to create plots/visualizations for the data.
 
 ## Results  
-1. **Do certain positions tend to get more assists than others?**  
-It was found that guards average 2.4 assists, small forwards average 1.5 assists, forwards average 1.1 assists, and centers average 0.9 assists. These values were found by adding up all the assists for each position then dividing by the number of players in each positon. Visually, this is what this information looks like:  
-(picture of boxplot)
+**Do certain positions tend to get more assists than others?**  
+It was found that guards average 2.4 assists, small forwards average 1.5 assists, forwards average 1.1 assists, and centers average 0.9 assists. These values were found by adding up all the assists for each position then dividing by the number of players in each positon. Visually, this is what this information looks like:
+ 
+![Picture 3](https://github.com/amoddiog/DataScience_FinalProject/blob/main/graph/assists_barplot.png)  
 The barplot clearly shows that guards tend to get more assists than the other positions. This result confirms my hypothesis that guards get more assists because they are the main ball handlers.
 
-3. **Do centers/forwards have a better field goal percentage than guards?**  
+**Do centers/forwards have a better field goal percentage than guards?**  
 It was found that centers and forwards had a combined average field goal percentage of 42.40% and guards had an average field goal percentage of 37.23%. These values were found by summing the field goal percentages for each position then dividing by the number of players in each position. Once again, my hypothesis was confirmed because the centers and forwards had a better field goal percentage.
 
-4. **Is there any correlation between offensive rebounds and 2 point field goal attempts?**  
+**Is there any correlation between offensive rebounds and 2 point field goal attempts?**  
 It was found that there is a correlation between offensive rebounds and 2 point field goal attempts, although it's not very strong. Here are the results from the linear regression:
-(picture of linear regression)
+
+![Picture 4](https://github.com/amoddiog/DataScience_FinalProject/blob/main/graph/linear_regression.png)  
 Here we can see that the correlation coefficient is 0.39, which means 39% of the variance in 2 point field goal attempts is explained by offensive rebounds. The model also has a mean squared error of 6.37, which is pretty low. This indicates that the model fits the data well.
 
 ## Discussion
+From this analysis, it seems that what position you play may have some effect on your stats. In the future, I think it would be interesting to take a deeper look into this to see what other stats are affected by what position you play, or just to see if there truly is any significant effect. I would also like to take a look at some of the other stats I didn't include to gain even more understanding on WNBA stats and how they interact with each other.
 
 ## References
 [1] [WNBA Stats 2018-2022](https://www.kaggle.com/datasets/jessalynlim/wnba-stats-20182022/)  
 [2] [Basketball-Reference.com](https://www.basketball-reference.com/wnba/)
+[3] [Jupyter Notebook Code]()
