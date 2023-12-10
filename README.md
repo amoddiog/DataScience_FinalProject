@@ -1,8 +1,6 @@
-# DataScience_FinalProject
+# Analysis of WNBA Stats
 
 ## Introduction
-Why was the project undertaken? What was the research question, the tested hypothesis or the purpose of the research?	
-
 For this project, I have chosen to exam statistics from the Women's National Basketbal Association (WNBA). This project was undertaken to further develop my skills and understanding in data analysis. As a basketball player myself, I thought it would be interesting to see if there are any trends or relationships between the different types of stats. 
 
 I decided to focus on three main research questions:  
@@ -18,8 +16,6 @@ I decided to focus on three main research questions:
 The main purpose of this research is to gain some insight on how where you are on the court can affect your stats and to see how the stats are related.
 
 ## Selection of Data
-What is the source of the dataset? Characteristics of data? Any munging, imputation, or feature engineering?
-
 The data used in this analysis comes from a dataset called WNBA Stats 2018-2022 found on [kaggle](https://www.kaggle.com/datasets/jessalynlim/wnba-stats-20182022/) [1]. The creator of this dataset gathered all the information from [Basketball-Reference.com](https://www.basketball-reference.com/wnba/) [2].
 
 The dataset includes stats for 885 players. Examples of the statistics included are team, position, field goal percentage, assists, rebounds, turnovers, and points. In total, there are 25 types of statistics listed for each player.  
@@ -66,5 +62,5 @@ From this analysis, it seems that what position you play may have some effect on
 
 ## References
 [1] [WNBA Stats 2018-2022](https://www.kaggle.com/datasets/jessalynlim/wnba-stats-20182022/)  
-[2] [Basketball-Reference.com](https://www.basketball-reference.com/wnba/)
-[3] [Jupyter Notebook Code]()
+[2] [Basketball-Reference.com](https://www.basketball-reference.com/wnba/)  
+[3] [Jupyter Notebook Code](https://github.com/amoddiog/DataScience_FinalProject/blob/main/codes/Project_Code.ipynb)
