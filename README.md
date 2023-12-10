@@ -37,6 +37,10 @@ Tools:
 **Scikit**  
 Scikit-learn was used to create a linear regression model for my third research question to see if there's a relationship between offensive rebounds and 2 point field goal attempts. A linear regression tests to see if there is a linear relationship between two varaibles, that is if one variable predicts another variable. A linear regression will give us a correlation coefficient that will tell us how strong the relationship is, if there is one at all.
 
+## Results
+
+## Discussion
+
 ## References
 [1] [WNBA Stats 2018-2022](https://www.kaggle.com/datasets/jessalynlim/wnba-stats-20182022/)  
 [2] [Basketball-Reference.com](https://www.basketball-reference.com/wnba/)
